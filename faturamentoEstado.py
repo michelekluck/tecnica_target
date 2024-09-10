@@ -10,6 +10,6 @@ total_mensal = sum(faturamento.values())
 
 percentuais = {estado: (valor / total_mensal) * 100 for estado, valor in faturamento.items()}
 
-print("Percentua de cada estado:")
+print("Percentual de representação de cada estado:")
 for estado, percentual in percentuais.items():
     print(f"{estado}: {percentual:.2f}%")
