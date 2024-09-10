@@ -1,6 +1,8 @@
 original = "Target"
 
-invertida = ''.join(reversed(original))
+invertida = ""
+for char in original:
+    invertida = char + invertida 
 
 print(f"Original: {original}")
 print(f"Invertida: {invertida}")
